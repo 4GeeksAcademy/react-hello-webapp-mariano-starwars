@@ -1,0 +1,81 @@
+.header{
+    background-color: rgb(70, 70, 70);
+}
+
+.navbar{
+    display: flex;
+}
+
+.left{
+    height: auto;
+    margin-left: 30px;
+}
+
+.right{
+
+    margin-right: 30px;
+}
+
+.logo{
+    width: 80px;
+}
+
+/* navbar.css *//* navbar.css */
+
+.header {
+    background-color: #212121; /* Fondo del navbar */
+    padding: 10px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .star-wars-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto; /* Centra el contenido en el medio */
+  }
+  
+  .star-wars-logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .right {
+    display: flex;
+  }
+  
+  .nav-links {
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu {
+    background-color: #212121; /* Fondo del menú desplegable */
+  }
+  
+  .dropdown-item {
+    color: #ffffff; /* Color del texto del menú desplegable */
+  }
+  
+  .fa-trash {
+    cursor: pointer;
+  }
+  
+  /* Agrega más estilos según tus preferencias */
+  
