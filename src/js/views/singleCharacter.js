@@ -6,7 +6,10 @@ import { Context } from "../store/appContext";
 export const SingleCharacter = (props) => {
   const { store, actions } = useContext(Context);
   const params = useParams();
-  const character = store.people[Number(params.uid) - 1];
+  const character = {
+    ...store.people[Number(params.uid) - 1],
+    description: "Una descripción ficticia del personaje. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel massa nec justo gravida vehicula. Integer feugiat elit a nisi auctor, a tincidunt arcu pellentesque. Quisque at tristique odio. Nunc id aliquet dolor."
+  };
 
   return (
     <div className="jumbotron text-white">
